@@ -19,3 +19,24 @@ Section A.
    **daily_rate** always greater > 0 (zero) - no negative numbers per each rental of vehicle or its rate daily.
 
    No FK in this database table.  One PK for property_id 
+
+3. viewings (vehicle viewing & duration_min to measure [bounce rate so to say of viewer]\
+   **viewing_id** is the PK cannot be null or duplicated like the rest. - Unique to view each particular vehicle in list.\
+   **renter_id** connect to renters table and always on an existing renter (customer)\
+   **property_id** connect to properties tables and always on an existing property (vehicle in list)\
+   **viewed_at** cannot be null always needs a time viewed and will always get a timestamp on it.\
+   **duration_min** metric to be used to measure time viewing each vehicle in list, always greater than > 0 (zero), never negative.\
+
+   Table contains two FKs, both reference any viewing by a renter (customer) that has shown some viewing on any\ vehicle.  We cannot delete it as its restricted due to keeping the data for the duration_metric.  renter_id and\ property_id are ON DELETE restricted in terms of viewing purposes. We can just inactivate a vehicle/property instead.\
+
+4
+
+
+
+
+
+
+
+
+
+   
