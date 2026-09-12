@@ -1,3 +1,3 @@
 # The Integrity Constraints
 
-## Constraints that protect the data & Foreign key ON DELETE behavior
+## A. Constraints that protect the data & B. Foreign key ON DELETE behavior
