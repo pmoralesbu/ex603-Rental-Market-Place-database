@@ -1,6 +1,6 @@
 # The Integrity Constraints
 
-## Section A. Constraints that protect the data
+## Section A. Constraints that protect the data 
 ## Section B. Foreign key ON DELETE behavior
 
 Section A (Numbered items).
