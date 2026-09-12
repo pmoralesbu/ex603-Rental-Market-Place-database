@@ -29,7 +29,7 @@ This relational design models a rental marketplace where renters browse cargo-va
    | amenity_id | integer | PK  |\
    | name | character varying(100) |   |
 
-**5. listing_amenities - Junction table - Many to Many**\
+**5. listing_amenities - Junction table - Many to Many - Composite table**\
    **| Attribute | Domain | Key |**\
    | property_id | integer | PK FK  |\
    | amenity_id | integer | PK FK |
