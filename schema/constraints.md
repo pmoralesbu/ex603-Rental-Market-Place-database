@@ -35,9 +35,12 @@ Section A.
 
   No FK in this database table.  One PK for amenity_id
 
-5. 
+5. listing_amenities (many to many table) - Junction table\
+   **property_id** composite PK, prevents duplicates and only reference existing property, any amenity cannot be assign to existing vehicle\
+   **amenity_id** composite PK, prevents duplicates and only reference existing amenity, any property cannot be assign to an existing amenity. 
 
-
+Has two FKs as well property_id & amenity_id\
+In this table you can delete all references due to CASCADING.  Both property_id (listing_amenities table) to property_id(properties) ON DELETE CASCADE, same for amenities table to amenity_id(listing_amenities table) to amenity_id(amenities table).  
 
 
 
