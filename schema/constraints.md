@@ -27,7 +27,7 @@ Section A (Numbered items).
    **viewed_at** cannot be null always needs a time viewed and will always get a timestamp on it.\
    **duration_min** metric to be used to measure time viewing each vehicle in list, always greater than > 0 (zero), never negative.
 
-**Section B**
+**Section B**\
    Table contains two FKs, both reference any viewing by a renter (customer) that has shown some viewing on any vehicle.  We cannot delete it as its restricted due to keeping the data for the duration_metric.  renter_id and property_id are ON DELETE restricted in terms of viewing purposes. We can just inactivate a vehicle/property instead.
 
 4.  amenities (features in cargo van)
@@ -42,7 +42,7 @@ Section A (Numbered items).
 
     Has two FKs as well property_id & amenity_id\
 
-**Section B**
+**Section B**\
 In this table you can delete all references due to CASCADING.  Both property_id (listing_amenities table) to property_id(properties) ON DELETE CASCADE, same for amenities table to amenity_id(listing_amenities table) to amenity_id(amenities table).  
 
 
