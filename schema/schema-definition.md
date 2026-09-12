@@ -16,7 +16,7 @@ This relational design models a rental marketplace where renters browse cargo-va
    | is_active | boolean |   |\
    | daily_rate | numeric(10, 2) |  |
 
-3. viewings (vehicle viewing & bounce rate of customers ) - Event per theme\
+3. viewings (vehicle viewing or bounce rate of customers || how long they viewed a vehicle on site measurement ) - Event per theme\
    | Attribute | Domain | Key |\
     | viewing_id | integer | PK |\
    | renter_id | integer | FK |\
