@@ -21,7 +21,7 @@ This relational design models a rental marketplace where renters browse cargo-va
     | viewing_id | integer | PK |\
    | renter_id | integer | FK |\
    | property_id | integer | FK |\
-   | viewed_at | timestamp without zone |   |\
+   | viewed_at | timestamp without time zone |   |\
    | duration_min | integer |  required per docs |
 
 **4. amenities (features in vehicles) - Catalog per theme**\
