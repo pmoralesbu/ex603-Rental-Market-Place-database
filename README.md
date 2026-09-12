@@ -22,7 +22,7 @@ The questions the database answers are as follows; which vehicles are active and
 
 **ERD Image pgAdmin - postgreSQL:**
 
-![App ex603-Rental-Market-Place-database](screenshots/rentalmarketplaceERD.png)
+![App ex603-Rental-Market-Place-database](screenshots/rentalMarketplaceERD.png)
 
 
 
