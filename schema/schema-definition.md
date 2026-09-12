@@ -26,7 +26,7 @@ This relational design models a rental marketplace where renters browse cargo-va
 
 4. amenities (features in vehicles) - Catalog per theme\
    | Attribute | Domain | Key |\
-   | amenity_id | integer |   |\
+   | amenity_id | integer | PK  |\
    | name | character varying(100) |   |
 
 5. listing_amenities - Junction table - Many to Many\
