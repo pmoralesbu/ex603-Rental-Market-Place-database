@@ -15,13 +15,14 @@ This project records all vehicle viewing done by customers (renters) on the site
 
 The questions the database answers are as follows; which vehicles are active and which are inactive per each listing on the site, it will also show the daily rate for each vehicle being rented, which customers viewed which vehicles, also how long they viewed a particular vehicle.  The database also mentions all amenities each vehicle may have or may not have.  The important part is the viewing history per vehicle by duration_min recorded to see which is more popular than the other.  
 
-ERD Image Drawio: 
+**ERD Image Drawio:** 
 
 ![App ex603-Rental-Market-Place-database](screenshots/rentalmarketplaceERD.drawio.png)
 
 
+**ERD Image pgAdmin - postgreSQL:**
 
-
+![App ex603-Rental-Market-Place-database](screenshots/rentalmarketplaceERD.png)
 
 
 
