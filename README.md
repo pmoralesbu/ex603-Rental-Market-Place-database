@@ -17,7 +17,7 @@ The questions the database answers are as follows; which vehicles are active and
 
 **ERD Image Drawio:** 
 
-![App ex603-Rental-Market-Place-database](schema/rentalmarketplaceERD.drawio.png)
+![App ex603-Rental-Market-Place-database](schema/rentalMarketERD_2026.png)
 
 
 **ERD Image pgAdmin - postgreSQL:**
