@@ -29,8 +29,24 @@ Section A.
 
    Table contains two FKs, both reference any viewing by a renter (customer) that has shown some viewing on any vehicle.  We cannot delete it as its restricted due to keeping the data for the duration_metric.  renter_id and property_id are ON DELETE restricted in terms of viewing purposes. We can just inactivate a vehicle/property instead.
 
-4
+4.  amenities (features in cargo van)
+  **amenity_id** is the PK cannot be null or duplicated again. its also unique per any features, must always be > 0 (zero).\
+    **name** cannot be empty or null again.  must always have a name, unique, no duplicated features.
 
+  No FK in this database table.  One PK for amenity_id
+
+5. 
+
+
+
+
+
+
+
+
+
+
+     
 
 
 
