@@ -10,3 +10,9 @@ The modeling justification by this ERD design show all primary keys as unique, a
 
 
 # Reflection 150 to 250 words
+
+I chose this design because it should be that if I kept all the properties as either inactive or active I can continue to collect data on each one, especially for payment and data analysis.  I also have used this style without organization for future payments from vehicle used in the past and we are able to collect this data in the past to see within a month if and when vehicle was used or not used in that given month.  Possible getting paid for one week of use our of four weeks, even it inactive after the week of use.  The attribute is important just for tracking purposes and using the boolean True/False way made it better option to use.  
+
+Keeping the inactive data shows we can track use or make patterns within the marketplace of each vehicle.  The viewings relation makes it possible for tracking by duration_min metric and viewed_at (timestamp).  The historical records give us that data and either proves of disprove our web application as either a good GTM (go to market) strategy or not.  
+
+Also, with options of either inactive or active gives us the availability of either property(cargo van) from being ready to go or not.  We can query if or filter those as well on active or inactive.  As a long term value, keeping this historical data is best for the platform as well. Beside that I had to research several of these terms to understand what they mean to make the comparisons to each table was the challenge I had plus understanding some of the assignment as well.  
