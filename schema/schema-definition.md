@@ -4,7 +4,7 @@
 
 This relational design models a rental marketplace where renters browse cargo-van rental listings. The five relations are `renters`, `properties`, `viewings`, `amenities`, and `listing_amenities`.
 
-1. renters (customers) - Actor per theme\
+##1. renters (customers) - Actor per theme\
    **| Attribute | Domain | Key |\**
    | renter_id | integer | PK |\
    | display_name | character varying(100) |   |
